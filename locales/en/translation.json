@@ -1,0 +1,910 @@
+{
+  "error": {
+    "network": {
+      "404": "Network error"
+    },
+    "no_changes": "You haven't made any changes",
+    "USER_IS_EXIST": "User already exists",
+    "USER_CODE_NOT_VALID": "You have entered invalid code",
+    "OLD_PASSWORD_INCORRECT": "Incorrect old password",
+    "BALANCE_NOT_ENOUGH": "Balance is not enough",
+    "USER_NOT_FOUND": "Invalid authorization data",
+    "USER_NOT_ACTIVE": "The user is disabled",
+    "USER_CODE_HAS_EXPIRED": "The code has expired",
+    "CODE_NOT_GENERATED": "The code has not been generated",
+    "DATA_NOT_VALID": "Entered data are invalid",
+    "PASSWORD_NOT_VALID": "Invalid password",
+    "INVITER_NOT_FOUND": "Your inviter is not found",
+    "PASSWORD_IS_EMPTY": "Incorrect password",
+    "PASSWORD_NOT_AVAILABLE": "The password is entered incorrectly",
+    "AMOUNT_NOT_VALID": "Incorrect amount",
+    "DEBIT_ADDRESS_NOT_EXIST": "There is no address for withdrawal",
+    "WALLET_IS_ALREADY": "The address already exists",
+    "WALLET_NOT_VALID": "Incorrect wallet",
+    "PACKET_NOT_FOUND": "The indicated package is not found",
+    "ENTRY_LINK_HAS_ACTIVATED": "The link is invalid"
+  },
+  "common": {
+    "back": "back",
+    "days": {
+      "one": "day",
+      "many": "days",
+      "other": "days"
+    },
+    "hours": {
+      "one": "hour",
+      "many": "hours",
+      "other": "hours"
+    },
+    "minutes": {
+      "one": "minute",
+      "many": "minutes",
+      "other": "minutes"
+    },
+    "seconds": {
+      "one": "second",
+      "many": "seconds",
+      "other": "seconds"
+    },
+    "partners": {
+      "one": "Partner",
+      "many": "Partners",
+      "other": "Partners"
+    },
+    "from": "from",
+    "to": "to",
+    "lines": {
+      "one": "line",
+      "many": "lines",
+      "other": "line"
+    },
+    "copy": "Copy",
+    "data_saved_success": "Data are saved successfully",
+    "phone": "phone",
+    "email": "email",
+    "channel": "Channel",
+    "chat": "Chat",
+    "ref_understand": "Your link is being generated. Refresh the page after a while"
+  },
+  "levels": {
+    "BEGINNER": "Beginner",
+    "AMETIS_JUNIOR": "Amethyst Junior",
+    "AMETIS_MIDDLE": "Amethyst Middle",
+    "AMETIS_SENIOR": "Amethyst Senior",
+    "AMETIS_LEAD": "Amethyst Lead",
+    "LAZURIT_JUNIOR": "Lazurite Junior",
+    "LAZURIT_MIDDLE": "Lazurite Middle",
+    "LAZURIT_SENIOR": "Lazurite Senior",
+    "LAZURIT_LEAD": "Lazurite Lead",
+    "NEFRIT_JUNIOR": "Jade Junior",
+    "NEFRIT_MIDDLE": "Jade Middle",
+    "NEFRIT_SENIOR": "Jade Senior",
+    "NEFRIT_LEAD": "Jade Lead",
+    "EMERALD_JUNIOR": "Emerald Junior",
+    "EMERALD_MIDDLE": "Emerald Middle",
+    "EMERALD_SENIOR": "Emerald Senior",
+    "EMERALD_LEAD": "Emerald Lead",
+    "RUBY_JUNIOR": "Ruby Junior",
+    "RUBY_MIDDLE": "Ruby Middle",
+    "RUBY_SENIOR": "Ruby Senior",
+    "RUBY_LEAD": "Ruby Lead",
+    "SAPPHIRE_JUNIOR": "Sapphire Junior",
+    "SAPPHIRE_MIDDLE": "Sapphire Middle",
+    "SAPPHIRE_SENIOR": "Sapphire Senior",
+    "SAPPHIRE_LEAD": "Sapphire Lead",
+    "DIAMOND_JUNIOR": "Diamond Junior",
+    "DIAMOND_MIDDLE": "Diamond Middle",
+    "DIAMOND_SENIOR": "Diamond Senior",
+    "DIAMOND_LEAD": "Diamond Lead"
+  },
+  "statuses": {
+    "COMPLETED": "Completed",
+    "PENDING": "Pending",
+    "REJECTED": "Rejected"
+  },
+  "notifications": {
+    "LEVEL_UP": "Congratulations! You have reached the {{level}} status",
+    "PERCENT_BY_PACKETS": "Referral reward {{amount}} FLEX",
+    "PERCENT_BY_PERCENT": "Accrual of structure income",
+    "BALANCE_CREDIT": "Balance replenishment for the amount of {{amount}} FLEX",
+    "BALANCE_DEBIT": "Withdrawal of funds for the amount of {{amount}} FLEX",
+    "OPEN_PACKET": "Congratulations! You have purchased the {{packet_name}} contract ",
+    "DAILY_DIVIDEND": "Accrued daily interest on the open contract {{packet_name}}",
+    "OPEN_BONUS": "Bonus for achieving the {{level}} status",
+    "INVITE_USER": "The partner in the {{line}} line joined to you (id {{ref_id}})",
+    "PASSWORD_CHANGE": "Your password has been changed"
+  },
+  "operations": {
+    "PACKET_CREDIT": "Congratulations! You have purchased the {{packet_name}} contract for the amount of {{amount_usd}} FLEX",
+    "PACKET_DAILY_DIVIDEND": "Accrued daily interest on the open contract {{packet_name}} for the amount of {{amount_usd}} FLEX",
+    "PACKET_PARTNER_PERCENT_BY_PERCENT": "Accrual of structure income from your partner ID {{packet_partner}} for the amount of {{amount_usd}} FLEX",
+    "PACKET_PARTNER_CREDIT_REWARD": "Referral fee {{amount_usd}} FLEX ({{dividends_percent}}%) for the purchase of contract by your partner ID {{packet_partner}}",
+    "PROGRAM_AUTO_CREDIT": "Purchase of FLEX Auto program",
+    "PROGRAM_AUTO_DEBIT": "Withdrawal from FLEX Auto program",
+    "PROGRAM_AUTO_PARTNER_REWARD": "Reward for purchase of FLEX Auto program by the partner ID {{packet_partner}}",
+    "PROGRAM_MARKET_CREDIT": "Purchase of FLEX Market program",
+    "PROGRAM_MARKET_DEBIT": "Withdrawal from FLEX Market program",
+    "PROGRAM_MARKET_PARTNER_REWARD": "Reward for the purchase of FLEX Market program by your partner ID {{packet_partner}}",
+    "PROGRAM_REALTY_CREDIT": "Replenishment of FLEX Home program",
+    "PROGRAM_REALTY_DEBIT": "Withdrawal from FLEX Home program",
+    "PROGRAM_REALTY_PARTNER_REWARD": "Reward for the purchase of FLEX Home by your partner ID {{packet_partner}}",
+    "BALANCE_CREDIT": "Balance replenishment for the amount of {{amount_usd}} FLEX, replenishment wallet {{wallet_currency}} {{wallet_address}}",
+    "BALANCE_DEBIT": "Withdrawal of funds for the amount of {{amount_usd}} FLEX, withdrawal wallet {{wallet_currency}}: {{wallet_address}}",
+    "BONUS_LEVEL_BALANCE_CREDIT": "Bonus for achieving the {{level}} status {{amount_usd}} FLEX to the balance",
+    "BONUS_LEVEL_PACKET_CREDIT": "Bonus contract {{packet_name}} for achieving the {{level}} status",
+    "CORRECTION_BALANCE": "Balance adjustment",
+    "WITHDRAW_REQUEST": "Withdrawal of funds for the amount of {{amount_usd}} FLEX, withdrawal wallet {{wallet_currency}}: {{wallet_address}}. Request number: {{id}}"
+  },
+  "navBar": {
+    "cabinet": "My personal account",
+    "finances": "Wallet",
+    "market": "FLEX Market",
+    "market_order": "Product checkout",
+    "market_buy_product": "Payment for the product",
+    "market_buy_product_success": "Payment for the product",
+    "auto": "Auto",
+    "actives":  "My assets",
+    "contract_history":  "Contract history",
+    "purchase_history":  "Purchase history",
+    "investments": "Investments",
+    "create_contract": "Create contract",
+    "buy_contract": "Contract purchase",
+    "buy_contract_success": "Contract purchase",
+    "partnership":  "Affiliate {{tag}} program",
+    "additionally": "Additionally",
+    "faq": "FAQ",
+    "settings": "Settings",
+    "withdraw": "Withdrawal of funds",
+    "deposit": "Balance replenishment",
+    "create": "Request is made",
+    "theme": {
+      "light": "Dark theme",
+      "dark": "Light theme"
+    }
+  },
+  "login": {
+    "page": {
+      "titles": {
+        "title": "Enter"
+      },
+      "texts": {
+        "text": "Log in with e-mail address or mobile phone number"
+      },
+      "form": {
+        "phone": {
+          "placeholder": "Phone number",
+          "errors": {
+            "empty": "Enter your phone number",
+            "valid": "Enter valid phone number"
+          }
+        },
+        "email": {
+          "placeholder": "Your email",
+          "placeholder2": "E-mail code",
+          "errors": {
+            "empty": "Enter your e-mail",
+            "valid": "Enter valid e-mail"
+          }
+        },
+        "password": {
+          "placeholder": "Password",
+          "errors": {
+            "empty": "Enter password"
+          }
+        }
+      },
+      "tabs": {
+        "EMAIL": "E-mail",
+        "MOBILE": "Mobile"
+      }
+    },
+    "btns": {
+      "login": "Log in"
+    },
+    "link": {
+      "forgot_password": "Forgot password?",
+      "registration": "Registration"
+    }
+  },
+  "registration": {
+    "page": {
+      "title": "Registration",
+      "texts": {
+        "text1": "Sign up with e-mail address or mobile phone number",
+        "text2": "optionally"
+      },
+      "form": {
+        "inviter": {
+          "placeholder": "your inviter's ID",
+          "errors": {
+            "empty": "Enter your inviter's ID or accept terms of registration without an inviter"
+          }
+        },
+        "first_name": {
+          "placeholder": "Your name",
+          "errors": {
+            "empty": "Enter your name"
+          }
+        },
+        "last_name": {
+          "placeholder": "Your surname",
+          "errors": {
+            "empty": "Enter your surname"
+          }
+        },
+        "phone": {
+          "placeholder": "Phone number",
+          "errors": {
+            "empty": "Enter your phone number",
+            "valid": "Enter valid phone number"
+          }
+        },
+        "email": {
+          "placeholder": "Your e-mail",
+          "errors": {
+            "empty": "Enter your e-mail",
+            "valid": "Enter valid e-mail"
+          }
+        },
+        "password": {
+          "placeholder": "Enter password",
+          "errors": {
+            "empty": "Enter password"
+          }
+        },
+        "confPassword": {
+          "placeholder": "Repeat password",
+          "errors": {
+            "empty": "Enter password",
+            "not_match": "Passwords do not match"
+          }
+        },
+        "terms": {
+          "errors": {
+            "not_checked": "You need to accept the terms of the user agreement"
+          }
+        }
+      }
+    },
+    "btns": {
+      "registration": "Register"
+    },
+    "link": {
+      "singleRegistration": {
+        "text1": "Accept",
+        "link": "registration terms",
+        "text2": "without inviter",
+        "conditions": "End-user license agreement terms and conditions"
+      },
+      "login": {
+        "text": "If you have an account",
+        "link": "Log in"
+      }
+    },
+    "tabs": {
+      "EMAIL": "E-mail",
+      "MOBILE": "Mobile"
+    }
+  },
+  "PrivateEntry": {
+    "modal": {
+      "understand": {
+        "message": "Congratulations! You have signed up using a private link!<br />The password has been sent to your {{phone}}.<br />You can change your password in the section Settings - Password."
+      }
+    }
+  },
+  "forgotPassword": {
+    "page": {
+      "title": "Password reset",
+      "title2": "Password is successfully changed",
+      "text": "Enter your e-mail address or enter your phone number, a code for the password reset will be sent to it",
+      "text3": "Change your password for security",
+      "text4": "To log in, please go back to the log-in page, in your personal account, and enter your current e-mail and a new password",
+      "text5": "Enter your email address or mobile phone number, and you will receive a password reset code",
+      "form": {
+        "email": {
+          "placeholder": "Your e-mail",
+          "errors": {
+            "empty": "Enter your e-mail",
+            "valid": "Enter valid e-mail"
+          }
+        },
+        "phone": {
+          "placeholder": "Phone number",
+          "errors": {
+            "empty": "Enter your phone number",
+            "valid": "Enter valid phone number"
+          }
+        },
+        "password": {
+          "placeholder": "New password",
+          "errors": {
+            "empty": "Enter password"
+          }
+        },
+        "confPassword": {
+          "placeholder": "Repeat password",
+          "errors": {
+            "empty": "Enter password",
+            "not_match": "Passwords do not match"
+          }
+        },
+        "code": {
+          "placeholder": "SMS code",
+          "email_placeholder": "Code from the letter",
+          "errors": {
+            "empty": "Enter SMS code",
+            "empty_email": "Enter E-mail code"
+          }
+        }
+      },
+      "texts": {
+        "text_by_number": "An SMS with a confirmation code has been sent to your phone number. Enter 6 digits from the message.",
+        "text_by_number2": "Didn't receive SMS? You can send again in {{timer}} seconds",
+        "text_by_email": "An SMS with a confirmation code has been sent to your e-mail address. Please enter 6 digits from the message.",
+        "text_by_email2": "Didn't receive a letter? You can send again in {{timer}} seconds"
+      },
+      "tabs": {
+        "EMAIL": "E-mail",
+        "MOBILE": "Mobile"
+      }
+    },
+    "btns": {
+      "send": "Send",
+      "confirm": "Confirm",
+      "change": "Change password",
+      "enter": "Log in"
+    },
+    "links": {
+      "resend_email": "Resend e-mail with code",
+      "registration": "Registration",
+      "login": "Log in"
+    }
+  },
+  "verification": {
+    "page": {
+      "titles": {
+        "login_by_number": "Log in by number",
+        "login_by_email": "Log in by e-mail"
+      },
+      "texts": {
+        "text_by_number": "An SMS with a confirmation code has been sent to your phone number. Please enter 6 digits from the message.",
+        "text_by_number2": "Didn't receive SMS? You can send again in {{timer}} seconds",
+        "text_by_email": "An SMS with a confirmation code has been sent to your e-mail address. Please enter 6 digits from the message.",
+        "text_by_email2": "Didn't receive a letter? You can send again in {{timer}} seconds"
+      },
+      "form": {
+        "code": {
+          "placeholder": "Code from the message",
+          "email_placeholder": "Code from the message",
+          "errors": {
+            "empty": "Enter a code from the message",
+            "empty_email": "Enter a code from the message"
+          }
+        }
+      }
+    },
+    "btns": {
+      "login": "Log in"
+    },
+    "link": {
+      "resend_sms": "Resend sms with code",
+      "resend_email": "Resend e-mail with code"
+    }
+  },
+  "home": {
+    "page": {
+      "titles": {
+        "greetings": "Hello"
+      }
+    },
+    "rank": {
+      "titles": {
+        "your_level": "Your level",
+        "next_level": "Next level"
+      },
+      "texts": {
+        "text1": "To go, complete the tasks",
+        "text2": "Your personal investments",
+        "text3": "for the next level",
+        "text4": "Your partners' turnover",
+        "text5": "Turnover",
+        "text6": "One-time bonus",
+        "text7": "at the next level",
+        "text8": "Referral Reward",
+        "text9": "at the level",
+        "text10": "Achievement progress"
+      },
+      "tooltips": {
+        "text2": "Your personal investment should amount to {{amount}} FLEX to reach the next level",
+        "text4": "The turnover of your {{lines}} should amount to {{amount}} FLEX",
+        "text6": "When you go to the {{level}} level, you will receive {{amount}} FLEX to your balance",
+        "text8": "When you go to the {{level}} level, your referral percentage from the invitation will be {{percent}}%"
+      }
+    },
+    "profit": {
+      "titles": {
+        "title1": "Balance",
+        "title2": "Expected",
+        "title3": "Group turnover",
+        "title4": "Net profit",
+        "title5": "Total income",
+        "title6": "Personal investments"
+      },
+      "tooltips": {
+        "tooltip1": "Funds available for withdrawal. These funds are also used to purchase new contracts and programs.",
+        "tooltip2": "Expected profit from all contracts purchased. Indicative value.",
+        "tooltip3": "The total amount of investments in contracts within your structure. IMPORTANT: only a certain percentage of each line is counted. You can get acquainted with the percentages in the marketing plan.",
+        "tooltip4": "Already received profit from existing contracts without taking into account referral fees.",
+        "tooltip5": "Total income from all sources. It takes into account all types of fees, referral fees, structure income, and bonuses.",
+        "tooltip6": "The total amount of all contracts and programs that were purchased in the account."
+      }
+    },
+    "products": {
+      "title": "Benefit up to 50% of the cost",
+      "text": "Purchase limit",
+      "text2": "in ownership in 120-180 days",
+      "button": "More",
+      "closed": "Program opening date"
+    },
+    "btns": {
+      "btn_collapse": "Collapse"
+    },
+    "notifications": {
+      "placeholder": {
+        "title": "Notifications",
+        "text": "You don't have notifications yet"
+      },
+      "load_more": "Load more"
+    }
+  },
+  "finances": {
+    "page": {
+      "title": "Wallet",
+      "texts": {
+        "text1": "Personal investments",
+        "text2": "Expected",
+        "text3": "Total income",
+        "text4": "Net profit",
+        "text5": "Balance",
+        "text6": "Select a currency and enter the replenishment amount",
+        "text7": "Enter the withdrawal amount"
+      },
+      "form": {
+        "email": {
+          "placeholder": "Your e-mail",
+          "placeholder2": "E-mail code",
+          "errors": {
+            "empty": "Enter your e-mail",
+            "valid": "Enter valid e-mail"
+          }
+        },
+        "number": {
+          "placeholders": {
+            "fill": "Replenishment amount",
+            "extract": "Withdrawal amount"
+          },
+          "errors": {
+            "fill": "Enter the amount to deposit",
+            "fill_min": "The amount to deposit should exceed the minimum value",
+            "extract": "Enter the amount to withdraw",
+            "extract_min": "The amount to withdraw should exceed the minimum value"
+          }
+        },
+        "btc-wallet": {
+          "placeholder": "BTC wallet",
+          "errors": {
+            "empty": "Enter BTC wallet",
+            "valid": "Enter valid BTC wallet"
+          }
+        }
+      }
+    },
+    "tabs": {
+      "FILL": "Deposit",
+      "EXTRACT": "Withdraw"
+    },
+    "fill": {
+      "title": "Deposit",
+      "texts": {
+        "text1": "You deposit to your wallet the amount of",
+        "text2": "Select a wallet to deposit funds to your balance"
+      }
+    },
+    "extract": {
+      "title": "Withdrawal of funds",
+      "texts": {
+        "text1": "You are withdrawing funds for the amount of",
+        "text2": "BTC wallet for receiving funds",
+        "text3": "Change wallet details",
+        "text4": "*withdrawal amount including 3% commission",
+        "text5": "Set default wallet"
+      }
+    },
+    "create": {
+      "title": "Your request for withdrawal has been successfully created",
+      "text": "After processing your request by a specialist, the funds will be credited to your wallet. Request processing period is from 72 hours to 96 hours.",
+      "error": "There are not enough funds to purchase a contract",
+      "go_to_finance": "Go to “Wallet” to deposit funds"
+    },
+    "btns": {
+      "button_fill": "Deposit",
+      "button_extract": "Withdraw",
+      "button_repeat": "Try again",
+      "button_create": "In the Wallet section"
+    },
+    "table": {
+      "headers": {
+        "col1": "Amount",
+        "col2": "Status",
+        "col3": "Date of receipt",
+        "col4": "Description"
+      },
+      "placeholder": {
+        "title": "Transaction history",
+        "text": "No transaction history on your finances"
+      }
+    },
+    "timer": {
+      "text": "Time to transfer payment to the wallet has expired, try again."
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "title2": "Password reset",
+    "texts": {
+      "text1": "Send this link to the person you want to invite to your affiliate program",
+      "text2": "The wallet is updated",
+      "text3": "When the turnover reaches",
+      "text4": "You have to pass identity verification"
+    },
+    "form": {
+      "labels": {
+        "name": "Your name",
+        "last_name": "Your surname",
+        "ref_id": "Your referral ID",
+        "email": "E-mail address",
+        "phone": "Phone number",
+        "btc_wallet": "BTC wallet",
+        "old_password": "Old password",
+        "new_password": "New password",
+        "re_new_password": "Repeat new password",
+        "nick_name": "Your nickname"
+      },
+      "first_name": {
+        "placeholder": "Enter your name",
+        "errors": {
+          "empty": "Enter your name"
+        }
+      },
+      "last_name": {
+        "placeholder": "Enter your surname",
+        "errors": {
+          "empty": "Enter your surname"
+        }
+      },
+      "nick_name": {
+        "placeholder": "Enter your nickname",
+        "errors": {
+          "empty": "Enter your nickname"
+        }
+      },
+      "phone": {
+        "placeholder": "Enter telephone number",
+        "errors": {
+          "empty": "Enter your phone number",
+          "valid": "Enter valid phone number"
+        }
+      },
+      "email": {
+        "placeholder": "Enter e-mail",
+        "errors": {
+          "empty": "Enter your e-mail",
+          "valid": "Enter valid e-mail"
+        }
+      },
+      "old_password": {
+        "placeholder": "Enter old password",
+        "errors": {
+          "empty": "Enter old password"
+        }
+      },
+      "new_password": {
+        "placeholder": "Enter new password",
+        "errors": {
+          "empty": "Enter new password"
+        }
+      },
+      "new_conf_password": {
+        "placeholder": "Repeat new password",
+        "errors": {
+          "empty": "Enter new password",
+          "not_match": "Passwords do not match",
+          "match": "Old and new passwords match"
+        }
+      },
+      "debit_address": {
+        "placeholder": "Enter your BTC wallet",
+        "errors": {
+          "empty": "Enter your BTC wallet",
+          "valid": "BTC wallet address is not valid"
+        }
+      },
+      "new_debit_address": {
+        "placeholder": "New BTC wallet",
+        "code": "Enter the code"
+      }
+    },
+    "btns": {
+      "change_photo": "Change photo",
+      "save": "Save",
+      "change": "Change",
+      "create_wallet": "Set wallet"
+    },
+    "tabs": {
+      "PROFILE": "Profile",
+      "SECURITY": "Security",
+      "PASSWORD": "Password",
+      "MATERIALS": "Materials",
+      "KYC": "KYC"
+    },
+    "collapses": {
+      "titles": {
+        "title1": "Company Presentation",
+        "title2": "Company marketing plan",
+        "title3": "Company brandbook",
+        "title4": "Complete company brandbook"
+      },
+      "texts": {
+        "text1": "Presentation",
+        "text2": "Marketing",
+        "text3": "Brandbook",
+        "text4": "Complete company brandbook"
+      }
+    }
+  },
+  "actives": {
+    "titles": {
+      "my_actives": "My assets",
+      "active_contracts": "Active contracts",
+      "active_products": "Active products",
+      "contracts": "Contracts",
+      "products": "Products"
+    },
+    "texts": {
+      "history_contracts": "Contract history",
+      "history_products": "Purchase history",
+      "available": "Available in one day",
+      "contracts": "Valid contracts",
+      "products": "Expected purchases"
+    },
+    "contracts_info": {
+      "invested": "Invested",
+      "days": "Days left",
+      "date": "Completion date",
+      "total": "Accrued for you"
+    },
+    "products_info": {
+      "price": "Purchase price",
+      "date": "Date of receipt",
+      "total": "Accrued for you"
+    },
+    "btns": {
+      "receive_btn": "Receive"
+    },
+    "tabs": {
+      "ALL_PERIOD": "Whole period",
+      "JANUARY": "January",
+      "FEBRUARY": "February",
+      "MARCH": "March",
+      "APRIL": "April",
+      "MAY": "May",
+      "JUNE": "June",
+      "JULY": "July",
+      "AUGUST": "August",
+      "SEPTEMBER": "September",
+      "OKTOBER": "October",
+      "NOVEMBER": "November",
+      "DECEMBER": "December"
+    },
+    "table": {
+      "placeholder": {
+        "title": "My assets",
+        "text": "You don't have any contracts yet"
+      }
+    }
+  },
+  "investments": {
+    "titles": {
+      "investments": "Investments",
+      "contracts": "Contracts",
+      "products": "Products",
+      "my_contracts": "My contracts",
+      "buy_contract": "You are purchasing a contract",
+      "payment_success": "Payment is completed successfully"
+    },
+    "texts": {
+      "deposit": "Deposit",
+      "clean_profit": "Net profit",
+      "investment_term": "Investment term",
+      "daily_revenue": "Daily income",
+      "select_type": "Choose a proper contract type to create it",
+      "investment_period": "Investment period",
+      "profitability": "Profitability",
+      "profit_accrual": "Profit accrual",
+      "daily": "Daily",
+      "your_deposit": "Your deposit",
+      "contract_price": "Contract amount",
+      "sum": "Amount payable",
+      "position_added": "Position has been added to your assets, a manager will contact you shortly to clarify the order",
+      "in_day": "a day"
+    },
+    "dropdown": {
+      "placeholder": "Select contract"
+    },
+    "btns": {
+      "invest_btn": "Invest",
+      "create_contract_btn": "Create contract",
+      "pay_btn": "Pay",
+      "my_actives": "My assets"
+    },
+    "table": {
+      "placeholder": {
+        "title": "Contracts history",
+        "text": "No transactions on your contracts"
+      },
+      "header": {
+        "col1": "Contract name",
+        "col2": "Amount invested",
+        "col3": "Net profit",
+        "col4": "Profitability",
+        "col5": "Contract termination"
+      }
+    },
+    "modal": {
+      "summ": {
+        "message": "01.12.2021-22.12.2021 The amount of packages is not more than 3,000  FLEX<br />22.12.2021-01.01.2022 The amount of packages is not more than 5,000 FLEX<br />01.01.2022-28.01.2022 The amount of purchased packages is not more than 10,000 FLEX<br />Starting from 28.01.22, package restrictions will be canceled"
+      }
+    }
+  },
+  "partnership": {
+    "titles": {
+      "partnership_program": "Partnership program",
+      "personal_investments": "Personal investments",
+      "structure_turnover": "Structure's turnover",
+      "invited": "Invited",
+      "general_structure": "General structure",
+      "my_structure": "My structure",
+      "turnover": "Turnover"
+    },
+    "texts": {
+      "invite_friends": "Invite your friends and get income with the affiliate program",
+      "get_income": "Get rewards from 15 levels of your affiliate network on the FIN2FLEX platform",
+      "invited_you": "Invited you",
+      "people": "people",
+      "line": "line"
+    },
+    "btns": {
+      "show_btn": "Show partners",
+      "hide_btn": "Hide partners"
+    },
+    "labels": {
+      "ref_link": "Your referral link"
+    },
+    "table": {
+      "placeholder": {
+        "title": "My structure",
+        "text": "You don't have any partners yet"
+      },
+      "headers": {
+        "name": "Partner's name",
+        "id": "Partner's ID",
+        "level": "Level",
+        "investments": "Investments",
+        "partners": "Partners"
+      }
+    }
+  },
+  "modals": {
+    "titles": {
+      "respectable_partners": "Dear partners",
+      "congratulations": "Congratulations!",
+      "level": "You have reached the level",
+      "change_wallet": "Changing wallet data",
+      "change_wallet_confirm": "Wallet number change confirmation"
+    },
+    "texts": {
+      "before_launch": "Before the platform launch",
+      "left": "left",
+      "btc_wallet": "Please indicate your BTC wallet; this wallet will be used by default to withdraw the funds"
+    },
+    "btns": {
+      "understand_btn": "I understand",
+      "do_not_show_again": "Do not show again"
+    }
+  },
+  "market": {
+    "home": {
+      "titles": {
+        "limit": "Program limit"
+      },
+      "texts": {
+        "main": "Purchase any goods with a benefit of up to 50% of their price",
+        "offer": "FIN2FLEX platform offers to purchase goods from absolutely any store with a benefit of up to 50% of their final price",
+        "info": "All you have to do is to enter the name of the product, its retail price in the store, make a payment of up to half the product price, and receive funds for the purchase after a fixed period of time."
+      },
+      "cards": {
+        "percent": "Closing percentage",
+        "waiting": "Waiting",
+        "reward": "Reward"
+      },
+      "btns": {
+        "btn_more": "Learn more"
+      }
+    },
+    "order": {
+      "titles": {
+        "order": "My order"
+      },
+      "texts": {
+        "info": "Indicate the product name and its retail price in stores so that we can cover part of the costs",
+        "total": "Total",
+        "contribution": "Installment",
+        "days_waiting": "Days of waiting",
+        "date_receiving": "Date of receiving",
+        "price": "Price for you"
+      },
+      "forms": {
+        "product": {
+          "placeholder": "Product name"
+        },
+        "price": {
+          "placeholder": "The product price in the store"
+        },
+        "select": {
+          "placeholder": "Select a program"
+        }
+      },
+      "btns": {
+        "btn_generate": "Generate an offer",
+        "btn_checkout": "Checkout"
+      },
+      "table": {
+        "header": {
+          "col_01": "Product name",
+          "col_02": "Retail price",
+          "col_03": "Price for you",
+          "col_04": "Date of receipt"
+        },
+        "placeholder": {
+          "title": "Order history",
+          "text": "No order history"
+        }
+      }
+    },
+    "buy_product": {
+      "titles": {
+        "buy": "You are buying",
+        "amount": "Amount to be paid"
+      },
+      "texts": {
+        "retail": "Retail price",
+        "for_you": "Price for you"
+      },
+      "btns": {
+        "buy_btn": "Pay"
+      }
+    },
+    "buy_product_success": {
+      "titles": {
+        "payment_success": "Payment has been successfully completed"
+      },
+      "texts": {
+        "position_added": "The position has been successfully added to your assets."
+      },
+      "btns": {
+        "actives_btn": "My assets"
+      }
+    }
+  }
+}
